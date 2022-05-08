@@ -17,4 +17,3 @@ class ServiceArea(Model):
     provider = ForeignKey('api.Provider', default=None, null=True, blank=True, on_delete=DO_NOTHING)
     price = DecimalField(max_digits=PRICE_DIGITS, decimal_places=PRICE_DECIMAL_DIGITS)
     polygon = PolygonField(verbose_name='polygon')
-

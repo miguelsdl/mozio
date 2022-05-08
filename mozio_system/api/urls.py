@@ -9,4 +9,3 @@ router.register(r'polygon', ServiceAreaViewSet)
 urlpatterns = [
     path('', include(router.urls)),
 ]
-
